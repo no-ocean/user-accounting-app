@@ -1,3 +1,24 @@
+# user-accounting-app
+
+### Установка сервера локально
+```sh
+$ npm i
+```
+
+### Установка клиента локально
+```sh
+$ cd client
+$ npm i
+```
+
+
+### Конфиг для .env
+```sh
+PORT = 8000
+JWT_SECRET = 'YOUR_SECRET_KEY'
+DATABASE_URL="file:./dev.db"
+```
+
 ### Используемые библиотеки
 - bcrypt - для хеширования пароля
 - jwt - для выдачи токена
@@ -26,4 +47,3 @@ $ npx prisma studio
 ```sh
 $ npm run dev
 ```
-# user-accounting-app
